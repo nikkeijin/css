@@ -135,3 +135,8 @@ Then, when you use this card component in different sections of your website, yo
   </div>
 </section>
 ```
+
+```
+<h1>Hello, World!</h1>
+<p>This is an example HTML code.</p>
+```
