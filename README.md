@@ -1,4 +1,4 @@
-# SMACSS
+# SMACSS Structure
 
 ```
 css/
@@ -32,7 +32,7 @@ css/
 |-- main.css
 ```
 
-# Component-Based
+# Component-Based Structure
 ```
 css/
 |-- components/
@@ -46,7 +46,7 @@ css/
 |-- main.css
 ```
 
-# BEM
+# BEM - Naming Convention for CSS classes
 ```
 <div class="header">
   <h1 class="header__logo">My Website</h1>
