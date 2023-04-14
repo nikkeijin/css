@@ -89,3 +89,46 @@ css/
   <p class="footer__text">Contact us: info@mywebsite.com</p>
 </footer>
 ```
+
+> Example of a component to be used in various pages
+
+In this example, we're using the "card" as the main block name for the component, and "image", "title", "description", and "cta" as the element names for the different parts of the card component. The double underscore "__" is used to separate the block name and element name in BEM convention.    
+
+```
+<!-- Card Component -->
+<div class="card">
+  <img src="card-image.jpg" alt="Card Image" class="card__image">
+  <h3 class="card__title">Card Title</h3>
+  <p class="card__description">Card Description</p>
+  <a href="#" class="card__cta">Learn More</a>
+</div>
+```
+
+Then, when you use this card component in different sections of your website, you can prefix the block name with the name of the section to create a unique class name for each usage. For example:
+
+
+```
+<!-- Hero Section -->
+<section class="hero">
+  <!-- Card Component used in the hero section -->
+  <div class="hero__card card">
+    <!-- card content -->
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="services">
+  <!-- Card Component used in the services section -->
+  <div class="services__card card">
+    <!-- card content -->
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials">
+  <!-- Card Component used in the testimonials section -->
+  <div class="testimonials__card card">
+    <!-- card content -->
+  </div>
+</section>
+```
