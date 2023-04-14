@@ -47,6 +47,9 @@ css/
 ```
 
 # BEM - Naming Convention for CSS classes
+
+> Example of a page   
+
 ```
 <div class="header">
   <h1 class="header__logo">My Website</h1>
@@ -90,7 +93,7 @@ css/
 </footer>
 ```
 
-> Example of a component to be used in various pages
+> Example of a component to be used in various pages    
 
 In this example, we're using the "card" as the main block name for the component, and "image", "title", "description", and "cta" as the element names for the different parts of the card component. The double underscore "__" is used to separate the block name and element name in BEM convention.    
 
@@ -104,7 +107,7 @@ In this example, we're using the "card" as the main block name for the component
 </div>
 ```
 
-Then, when you use this card component in different sections of your website, you can prefix the block name with the name of the section to create a unique class name for each usage. For example:
+Then, when you use this card component in different sections of your website, you can prefix the block name with the name of the section to create a unique class name for each usage. For example:   
 
 
 ```
